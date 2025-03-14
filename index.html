@@ -6,33 +6,32 @@
     <title>Language Learning Guide</title>
     <style>
         /* General Styles */
-        /* General Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #e0f7fa;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.4; /* Reduced line height */
         }
 
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
+            padding: 15px; /* Reduced padding */
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 2rem;
-            margin-bottom: 20px;
+            font-size: 1.8rem; /* Slightly smaller heading */
+            margin-bottom: 15px; /* Reduced margin */
             color: #00796b;
         }
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 10px; /* Reduced margin */
         }
 
         a {
@@ -48,17 +47,17 @@
         .language-selector {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            margin-bottom: 20px;
+            gap: 8px; /* Reduced gap */
+            margin-bottom: 15px; /* Reduced margin */
         }
         .language-selector button {
-            padding: 10px 20px;
+            padding: 8px 16px; /* Reduced padding */
             background-color: #3498db;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 0.9rem; /* Slightly smaller font */
             transition: background-color 0.3s ease;
         }
 
@@ -79,7 +78,7 @@
         img {
             max-width: 100%;
             height: auto;
-            margin-top: 20px;
+            margin-top: 15px; /* Reduced margin */
             border: 1px solid #ddd;
             border-radius: 5px;
             padding: 5px;
@@ -89,18 +88,50 @@
 
         /* Ordered List Styling */
         ol {
-            margin-left: 20px;
-            margin-bottom: 20px;
+            margin-left: 15px; /* Reduced margin */
+            margin-bottom: 15px; /* Reduced margin */
         }
 
         ol li {
-            margin-bottom: 10px;
+            margin-bottom: 8px; /* Reduced margin */
+        }
+
+        /* Text Area and Read Button */
+        .text-area-container {
+            margin-top: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1rem;
+            resize: vertical;
+        }
+
+        .read-button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .read-button:hover {
+            background-color: #2980b9;
         }
 
         /* Responsive Design */
         @media (max-width: 600px) {
             .container {
-                padding: 15px;
+                padding: 10px; /* Reduced padding */
             }
 
             h1 {
@@ -155,10 +186,10 @@
             <p><a href="https://youtu.be/kv135z4AMJE?si=EMQ2ewnpgQtG2dMs" target="_blank">شاهد البرنامج التعليمي هنا</a></p>
             <p>إذا كنت لا تعرف كيفية قراءة النص بصوت عالٍ من صورة، قم بخطوتين:</p>
             <ol>
-                <li> حول الصورة إلى نص باستخدام <a href="https://www.imagetotext.info/" target="_blank">Image to Text</a></li>
-                <li> انسخ والصق النص في <a href="https://translate.google.co.uk" target="_blank">Google Translate</a>، ثم اضغط على زر 🔊 لسماعه.</li>
+                <li>حول الصورة إلى نص باستخدام <a href="https://www.imagetotext.info/" target="_blank">Image to Text</a></li>
+                <li>انسخ والصق النص في <a href="https://translate.google.co.uk" target="_blank">Google Translate</a>، ثم اضغط على زر 🔊 لسماعه.</li>
             </ol>
-            <p>جربها بنفسك مع صورة خطاب ترحيب زميلتنا سابينا لطلاب السنة السابعة الجدد🎉:</p>
+            <p>🎉جربها بنفسك مع صورة خطاب ترحيب زميلتنا سابينا لطلاب السنة السابعة الجدد:</p>
             <img src="filename0.jpg" alt="خطاب سابينا الترحيبي">
         </div>
 
@@ -168,11 +199,17 @@
             <p><a href="https://youtu.be/kv135z4AMJE?si=EMQ2ewnpgQtG2dMs" target="_blank">آموزش را اینجا تماشا کنید</a></p>
             <p>اگر نمی‌دانید چگونه متن را از روی یک تصویر با صدای بلند بخوانید، دو کار انجام دهید:</p>
             <ol>
-                <li> تصویر را به متن تبدیل کنید با استفاده از <a href="https://www.imagetotext.info/" target="_blank">Image to Text</a></li>
-                <li> متن را کپی کرده و در <a href="https://translate.google.co.uk" target="_blank">Google Translate</a> قرار دهید، سپس دکمه 🔊 را فشار دهید تا آن را بشنوید.</li>
+                <li>تصویر را به متن تبدیل کنید با استفاده از <a href="https://www.imagetotext.info/" target="_blank">Image to Text</a></li>
+                <li>متن را کپی کرده و در <a href="https://translate.google.co.uk" target="_blank">Google Translate</a> قرار دهید، سپس دکمه 🔊 را فشار دهید تا آن را بشنوید.</li>
             </ol>
-            <p>خودتان آن را با تصویر سخنرانی خوش‌آمدگویی همکلاسی ما سابینا برای دانش‌آموزان جدید سال هفتم امتحان کنید🎉:</p>
+            <p>🎉خودتان آن را با تصویر سخنرانی خوش‌آمدگویی همکلاسی ما سابینا برای دانش‌آموزان جدید سال هفتم امتحان کنید:</p>
             <img src="filename0.jpg" alt="سخنرانی خوش‌آمدگویی سابینا">
+        </div>
+
+        <!-- Text Area and Read Button -->
+        <div class="text-area-container">
+            <textarea id="text-input" placeholder="or you can paste the text here too then press the read outloud button. або ви також можете вставити текст сюди, а потім натиснути кнопку прочитати вголос. أو يمكنك لصق النص هنا أيضًا ثم الضغط على زر القراءة بصوت عالٍ. "></textarea>
+            <button class="read-button" onclick="readText()">Read Text Out Loud</button>
         </div>
     </div>
 
@@ -188,6 +225,19 @@
 
         // Show English content by default
         showContent('en');
+
+        // Web Audio API for reading text
+        function readText() {
+            const text = document.getElementById('text-input').value;
+            if (text.trim() === "") {
+                alert("Please enter some text to read.");
+                return;
+            }
+
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US'; // Default language
+            speechSynthesis.speak(utterance);
+        }
     </script>
 
 </body>
